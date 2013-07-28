@@ -179,7 +179,37 @@
 </section><section>
 
 <section>
-<h1>FIRST RUN</h1>
+<h1>Technical Details</h1>
+</section>
+
+<section>
+<h2>Hardware</h2>
+<div style="float: left;"><img src="pcb.jpg" /></div>
+<div style="float: left; margin: 2em;">
+<ul>
+<li class="fragment" style="margin-bottom: 1em;">ARM Cortex-M3 microcontroller<ul><li>STM32F205</li><li>120 MHz</li><li>512 KiB Flash</li><li>128 KiB RAM</li><li>HW RNG</li></ul></li>
+<li class="fragment" style="margin-bottom: 1em;">OLED display<ul><li>UG-2864HSWEG01</li><li>0.96" width</li><li>128x64 pixels</li><li>monochromatic</li></ul></li>
+<li class="fragment" style="margin-bottom: 1em;">2 tactile buttons</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Firmware</h2>
+<div style="float: left;"><img src="pcb.jpg" /></div>
+<div style="float: left; margin: 2em;">
+<ul>
+<li class="fragment" style="margin-bottom: 1em;">written in C<ul><li>open-source</li><li>no proprietary toolchains</li><li>gcc-arm-none-eabi</li><li>libopencm3</li></ul></li>
+<li class="fragment" style="margin-bottom: 1em;">communication<ul><li>Protocol Buffers</li><li>via USB HID</li></ul></li>
+<li class="fragment" style="margin-bottom: 1em;">simple design<ul><li>no OS</li><li>no concurrency / threads</li><li>easy audit</li></ul></li>
+</ul>
+</div>
+</section>
+
+</section><section>
+
+<section>
+<h1>First Run</h1>
 </section>
 
 <section>
@@ -412,7 +442,6 @@ Your balance is 1.9999 BTC
 </section>
 
 </section>
-
 
 			</div>
 
